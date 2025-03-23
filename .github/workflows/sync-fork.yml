@@ -1,3 +1,4 @@
+
 name: Sync Fork with Upstream
 
 on:
@@ -21,7 +22,7 @@ jobs:
 
       - name: Add Upstream and Fetch Changes
         run: |
-          git remote add upstream https://github.com/your-upstream-repo.git
+          git remote add upstream https://github.com/smartcontractkit/full-blockchain-solidity-course-js.git
           git fetch upstream
 
       - name: Merge Upstream Changes
